@@ -1,130 +1,129 @@
-<mxfile host="app.diagrams.net" modified="2023-09-15T04:59:35.583Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="43n7REwVSNN84kVzWWSf" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-15T06:39:38.476Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="HU_jliOg88eXFfA64WjL" version="21.7.5" type="github">
   <diagram id="07fea595-8f29-1299-0266-81d95cde20df" name="Page-1">
-    <mxGraphModel dx="1477" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1034" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="170" value="&lt;font color=&quot;#23497d&quot;&gt;客户端&lt;/font&gt;" style="swimlane;whiteSpace=wrap;fillColor=none;swimlaneFillColor=#BAC8D3;fontColor=#2F5B7C;fontFamily=Tahoma;html=1;strokeColor=none;opacity=50;" parent="1" vertex="1">
-          <mxGeometry x="24.5" y="88.5" width="160" height="650" as="geometry">
+          <mxGeometry x="24.5" y="30" width="160" height="780" as="geometry">
             <mxRectangle x="20" y="20" width="80" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JCUp2-WsoM5vCHeJatl--247" value="iwork自定义登录页面携带,选择项目" style="shape=document;whiteSpace=wrap;verticalAlign=middle;strokeColor=none;fillColor=#12aab5;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;spacingBottom=22;" vertex="1" parent="170">
+        <mxCell id="JCUp2-WsoM5vCHeJatl--247" value="iwork自定义登录页面请求当前iwork用户项目列表" style="shape=document;whiteSpace=wrap;verticalAlign=middle;strokeColor=none;fillColor=#12aab5;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;spacingBottom=22;" parent="170" vertex="1">
           <mxGeometry x="25.5" y="41.5" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="171" value="nacos&lt;br&gt;自定义登录页面携带" style="whiteSpace=wrap;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;plain-purple;strokeColor=none;fillColor=#2f5b7c;gradientColor=none;spacing=6;verticalAlign=middle;" parent="170" vertex="1">
-          <mxGeometry x="20" y="162" width="120" height="168" as="geometry" />
+          <mxGeometry x="20" y="400" width="120" height="168" as="geometry" />
         </mxCell>
-        <mxCell id="183" value="&#xa;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;获取当前登录iwork用户&lt;/span&gt;&#xa;&#xa;" style="swimlane;whiteSpace=wrap;fillColor=none;swimlaneFillColor=#BAC8D3;fontColor=#2F5B7C;fontFamily=Tahoma;html=1;strokeColor=none;opacity=25;" parent="1" vertex="1">
-          <mxGeometry x="190" y="70" width="390" height="650" as="geometry">
-            <mxRectangle x="20" y="20" width="80" height="23" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="JCUp2-WsoM5vCHeJatl--217" value="" style="edgeStyle=segmentEdgeStyle;strokeColor=#2F5B7C;strokeWidth=3;html=1;endArrow=block;endFill=1;" edge="1" parent="183">
-          <mxGeometry x="-20" y="90" width="100" height="100" as="geometry">
-            <mxPoint x="-22.25" y="90.5" as="sourcePoint" />
-            <mxPoint x="182.25" y="91.5" as="targetPoint" />
+        <mxCell id="JCUp2-WsoM5vCHeJatl--227" value="" style="edgeStyle=segmentEdgeStyle;strokeColor=#2F5B7C;strokeWidth=3;html=1;endArrow=block;endFill=1;" parent="170" edge="1">
+          <mxGeometry x="140" y="148.5" width="100" height="100" as="geometry">
+            <mxPoint x="145.5" y="70.77000000000001" as="sourcePoint" />
+            <mxPoint x="585.5" y="70" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="157.75" y="91.5" />
-              <mxPoint x="157.75" y="91.5" />
+              <mxPoint x="176" y="71" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JCUp2-WsoM5vCHeJatl--231" value="" style="edgeStyle=segmentEdgeStyle;strokeColor=#2F5B7C;strokeWidth=3;html=1;endArrow=block;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="183" source="JCUp2-WsoM5vCHeJatl--229">
-          <mxGeometry x="-15.5" y="89.5" width="100" height="100" as="geometry">
-            <mxPoint x="94.5" y="200" as="sourcePoint" />
-            <mxPoint x="-30" y="202" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="180" y="202" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="JCUp2-WsoM5vCHeJatl--232" value="" style="edgeStyle=segmentEdgeStyle;strokeColor=#2F5B7C;strokeWidth=3;html=1;endArrow=block;endFill=1;" edge="1" parent="183">
-          <mxGeometry x="-210" y="20" width="100" height="100" as="geometry">
-            <mxPoint x="-30" y="310" as="sourcePoint" />
-            <mxPoint x="640" y="300" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="150" y="311" />
-              <mxPoint x="150" y="311" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="JCUp2-WsoM5vCHeJatl--234" value="&lt;h1&gt;&lt;font size=&quot;1&quot;&gt;1携带iwork access token认证登录&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="183">
-          <mxGeometry x="30" y="50" width="80" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="JCUp2-WsoM5vCHeJatl--244" value="&lt;h1&gt;&lt;font size=&quot;1&quot;&gt;4成功返回nacos access token&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="183">
-          <mxGeometry x="20" y="190" width="80" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="JCUp2-WsoM5vCHeJatl--245" value="&lt;h1&gt;&lt;font size=&quot;1&quot;&gt;5携带nacos access token登录&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="183">
-          <mxGeometry x="20" y="320" width="370" height="100" as="geometry" />
+        <mxCell id="tvP8M2Ja1qccQZ0zuq23-216" value="iwork自定义登录页面携带,选择项目" style="shape=document;whiteSpace=wrap;verticalAlign=middle;strokeColor=none;fillColor=#12aab5;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;spacingBottom=22;" vertex="1" parent="170">
+          <mxGeometry x="20" y="220" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="187" value="nacos认证模块" style="swimlane;whiteSpace=wrap;fillColor=none;swimlaneFillColor=#BAC8D3;fontColor=#2F5B7C;fontFamily=Tahoma;html=1;strokeColor=none;opacity=50;" parent="1" vertex="1">
-          <mxGeometry x="344.5" y="89" width="160" height="650" as="geometry">
+          <mxGeometry x="344.5" y="30" width="160" height="709" as="geometry">
             <mxRectangle x="20" y="20" width="80" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="184" value="nacos认证模块携带accesstoken通知iwork当前登录用户" style="whiteSpace=wrap;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;plain-purple;strokeColor=none;fillColor=#2f5b7c;gradientColor=none;spacing=6;verticalAlign=middle;" parent="187" vertex="1">
-          <mxGeometry x="25.5" y="51" width="120" height="60" as="geometry" />
+        <mxCell id="184" value="存储并返回&lt;br&gt;项目列表" style="whiteSpace=wrap;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;plain-purple;strokeColor=none;fillColor=#2f5b7c;gradientColor=none;spacing=6;verticalAlign=middle;" parent="187" vertex="1">
+          <mxGeometry x="20" y="90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JCUp2-WsoM5vCHeJatl--229" value="根据账号返回nacos accessotken重定向到具体项目的&lt;br&gt;nacos自定义登录页面" style="whiteSpace=wrap;strokeColor=none;fillColor=#2f5b7c;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;verticalAlign=middle;" vertex="1" parent="187">
-          <mxGeometry x="25.5" y="151" width="120" height="60" as="geometry" />
+        <mxCell id="JCUp2-WsoM5vCHeJatl--229" value="根据账号返回nacos accessotken重定向到具体项目的&lt;br&gt;nacos自定义登录页面" style="whiteSpace=wrap;strokeColor=none;fillColor=#2f5b7c;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;verticalAlign=middle;" parent="187" vertex="1">
+          <mxGeometry x="20" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JCUp2-WsoM5vCHeJatl--218" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.456;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="187" source="184" target="JCUp2-WsoM5vCHeJatl--229">
+        <mxCell id="tvP8M2Ja1qccQZ0zuq23-207" value="nacos认证模块携带accesstoken, iwork当前登录用户,项目名&lt;br&gt;&amp;nbsp;" style="whiteSpace=wrap;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;plain-purple;strokeColor=none;fillColor=#2f5b7c;gradientColor=none;spacing=6;verticalAlign=middle;" vertex="1" parent="187">
+          <mxGeometry x="20" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JCUp2-WsoM5vCHeJatl--220" value="&lt;font color=&quot;#23497d&quot;&gt;iwork模块&lt;/font&gt;" style="swimlane;whiteSpace=wrap;fillColor=none;swimlaneFillColor=#BAC8D3;fontColor=#2F5B7C;fontFamily=Tahoma;html=1;strokeColor=none;opacity=50;" parent="1" vertex="1">
+          <mxGeometry x="590" y="30" width="160" height="709" as="geometry">
+            <mxRectangle x="20" y="20" width="80" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JCUp2-WsoM5vCHeJatl--221" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="JCUp2-WsoM5vCHeJatl--220" target="JCUp2-WsoM5vCHeJatl--223" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="130" as="sourcePoint" />
-            <mxPoint x="-60.02941176470563" y="301" as="targetPoint" />
+            <mxPoint x="80" y="280" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="86" y="110" />
-              <mxPoint x="86" y="136" />
+              <mxPoint x="81" y="355" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JCUp2-WsoM5vCHeJatl--220" value="&lt;font color=&quot;#23497d&quot;&gt;iwork模块&lt;/font&gt;" style="swimlane;whiteSpace=wrap;fillColor=none;swimlaneFillColor=#BAC8D3;fontColor=#2F5B7C;fontFamily=Tahoma;html=1;strokeColor=none;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="590" y="89" width="160" height="650" as="geometry">
+        <mxCell id="JCUp2-WsoM5vCHeJatl--222" value="获取环境列表" style="shape=document;whiteSpace=wrap;verticalAlign=middle;strokeColor=none;fillColor=#12aab5;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;spacingBottom=22;" parent="JCUp2-WsoM5vCHeJatl--220" vertex="1">
+          <mxGeometry x="20" y="30" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="JCUp2-WsoM5vCHeJatl--223" value="根据账号映射关系返回nacos用户" style="shape=document;whiteSpace=wrap;verticalAlign=middle;strokeColor=none;fillColor=#12aab5;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;spacingBottom=22;" parent="JCUp2-WsoM5vCHeJatl--220" vertex="1">
+          <mxGeometry x="20" y="540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="204" value="" style="edgeStyle=segmentEdgeStyle;strokeColor=#2F5B7C;strokeWidth=3;html=1;endArrow=block;endFill=1;" parent="1" edge="1">
+          <mxGeometry x="164.5" y="178.5" width="100" height="100" as="geometry">
+            <mxPoint x="610" y="140" as="sourcePoint" />
+            <mxPoint x="495" y="140" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JCUp2-WsoM5vCHeJatl--235" value="&lt;font color=&quot;#23497d&quot;&gt;nacos服务端&lt;/font&gt;" style="swimlane;whiteSpace=wrap;fillColor=none;swimlaneFillColor=#BAC8D3;fontColor=#2F5B7C;fontFamily=Tahoma;html=1;strokeColor=none;opacity=50;" parent="1" vertex="1">
+          <mxGeometry x="830" y="20" width="160" height="719" as="geometry">
             <mxRectangle x="20" y="20" width="80" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JCUp2-WsoM5vCHeJatl--221" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JCUp2-WsoM5vCHeJatl--220" source="JCUp2-WsoM5vCHeJatl--222" target="JCUp2-WsoM5vCHeJatl--223">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="JCUp2-WsoM5vCHeJatl--251" value="nacos原登录主页&lt;br&gt;" style="whiteSpace=wrap;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;plain-purple;strokeColor=none;fillColor=#2f5b7c;gradientColor=none;spacing=6;verticalAlign=middle;" parent="JCUp2-WsoM5vCHeJatl--235" vertex="1">
+          <mxGeometry x="20" y="510" width="120" height="168" as="geometry" />
         </mxCell>
-        <mxCell id="JCUp2-WsoM5vCHeJatl--222" value="获取当前登录iwork用户" style="shape=document;whiteSpace=wrap;verticalAlign=middle;strokeColor=none;fillColor=#12aab5;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;spacingBottom=22;" vertex="1" parent="JCUp2-WsoM5vCHeJatl--220">
-          <mxGeometry x="20" y="50" width="120" height="80" as="geometry" />
+        <mxCell id="JCUp2-WsoM5vCHeJatl--242" value="&lt;h1&gt;&lt;font size=&quot;1&quot;&gt;1.获取项目列表&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="220" y="60" width="90" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="JCUp2-WsoM5vCHeJatl--223" value="根据账号映射关系返回nacos用户" style="shape=document;whiteSpace=wrap;verticalAlign=middle;strokeColor=none;fillColor=#12aab5;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;spacingBottom=22;" vertex="1" parent="JCUp2-WsoM5vCHeJatl--220">
-          <mxGeometry x="20" y="151.5" width="120" height="80" as="geometry" />
+        <mxCell id="JCUp2-WsoM5vCHeJatl--243" value="&lt;h1&gt;&lt;font size=&quot;1&quot;&gt;3认证成功返回nacos账号，失败返回失败&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="505" y="324.5" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="204" value="" style="edgeStyle=segmentEdgeStyle;strokeColor=#2F5B7C;strokeWidth=3;html=1;endArrow=block;endFill=1;exitX=-0.012;exitY=0.407;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="JCUp2-WsoM5vCHeJatl--223" edge="1">
-          <mxGeometry x="164.5" y="178.5" width="100" height="100" as="geometry">
-            <mxPoint x="610" y="285" as="sourcePoint" />
-            <mxPoint x="484.5" y="275" as="targetPoint" />
+        <mxCell id="tvP8M2Ja1qccQZ0zuq23-208" value="" style="edgeStyle=segmentEdgeStyle;strokeColor=#2F5B7C;strokeWidth=3;html=1;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="140" y="148.5" width="100" height="100" as="geometry">
+            <mxPoint x="500" y="170" as="sourcePoint" />
+            <mxPoint x="610" y="170" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="609" y="275" />
-              <mxPoint x="610" y="275" />
+              <mxPoint x="500" y="170" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JCUp2-WsoM5vCHeJatl--227" value="" style="edgeStyle=segmentEdgeStyle;strokeColor=#2F5B7C;strokeWidth=3;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry x="164.5" y="178.5" width="100" height="100" as="geometry">
-            <mxPoint x="490" y="181.77" as="sourcePoint" />
-            <mxPoint x="595.5" y="181" as="targetPoint" />
+        <mxCell id="JCUp2-WsoM5vCHeJatl--232" value="" style="edgeStyle=segmentEdgeStyle;strokeColor=#2F5B7C;strokeWidth=3;html=1;endArrow=block;endFill=1;" parent="1" edge="1">
+          <mxGeometry y="1040" width="100" height="100" as="geometry">
+            <mxPoint x="300" y="930" as="sourcePoint" />
+            <mxPoint x="970" y="920" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="520.5" y="182" />
+              <mxPoint x="480" y="931" />
+              <mxPoint x="480" y="931" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JCUp2-WsoM5vCHeJatl--235" value="&lt;font color=&quot;#23497d&quot;&gt;nacos服务端&lt;/font&gt;" style="swimlane;whiteSpace=wrap;fillColor=none;swimlaneFillColor=#BAC8D3;fontColor=#2F5B7C;fontFamily=Tahoma;html=1;strokeColor=none;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="830" y="89" width="160" height="650" as="geometry">
-            <mxRectangle x="20" y="20" width="80" height="23" as="alternateBounds" />
+        <mxCell id="JCUp2-WsoM5vCHeJatl--244" value="&lt;h1&gt;&lt;font size=&quot;1&quot;&gt;4成功返回nacos access token&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="325" y="560" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JCUp2-WsoM5vCHeJatl--245" value="&lt;h1&gt;&lt;font size=&quot;1&quot;&gt;5携带nacos access token登录&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="180" y="760" width="370" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tvP8M2Ja1qccQZ0zuq23-210" value="&lt;h1&gt;&lt;font size=&quot;1&quot;&gt;2.请求项目列表&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="100" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tvP8M2Ja1qccQZ0zuq23-211" value="&lt;h1&gt;&lt;font size=&quot;1&quot;&gt;3.返回项目列表&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="160" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JCUp2-WsoM5vCHeJatl--234" value="&lt;h1&gt;&lt;font size=&quot;1&quot;&gt;1携带iwork access token认证登录&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="210" y="340" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tvP8M2Ja1qccQZ0zuq23-214" value="" style="edgeStyle=segmentEdgeStyle;strokeColor=#2F5B7C;strokeWidth=3;html=1;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="164.5" y="178.5" width="100" height="100" as="geometry">
+            <mxPoint x="610" y="220" as="sourcePoint" />
+            <mxPoint x="180" y="220" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JCUp2-WsoM5vCHeJatl--251" value="nacos原登录主页&lt;br&gt;" style="whiteSpace=wrap;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;plain-purple;strokeColor=none;fillColor=#2f5b7c;gradientColor=none;spacing=6;verticalAlign=middle;" vertex="1" parent="JCUp2-WsoM5vCHeJatl--235">
-          <mxGeometry x="20" y="211" width="120" height="168" as="geometry" />
-        </mxCell>
-        <mxCell id="JCUp2-WsoM5vCHeJatl--242" value="&lt;h1&gt;&lt;font size=&quot;1&quot;&gt;2携带 iwork&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;access token&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="120" width="80" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="JCUp2-WsoM5vCHeJatl--243" value="&lt;h1&gt;&lt;font size=&quot;1&quot;&gt;3认证成功返回nacos账号，失败返回失败&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="504.5" y="270" width="80" height="100" as="geometry" />
+        <mxCell id="tvP8M2Ja1qccQZ0zuq23-215" value="&lt;h1&gt;&lt;font size=&quot;1&quot;&gt;4.返回项目列表&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="180" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
