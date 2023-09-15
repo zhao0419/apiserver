@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-15T08:12:50.280Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="on1leG7RDtYEvKWTsu9e" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-15T08:56:53.956Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="BZtNfYVw9YKypp5oST3-" version="21.7.5" type="github">
   <diagram id="07fea595-8f29-1299-0266-81d95cde20df" name="Page-1">
-    <mxGraphModel dx="862" dy="365" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1477" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,7 +67,7 @@
         <mxCell id="JCUp2-WsoM5vCHeJatl--242" value="&lt;h1&gt;&lt;font size=&quot;1&quot;&gt;1.获取领域列表和项目列表&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="220" y="60" width="90" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="JCUp2-WsoM5vCHeJatl--243" value="&lt;h1&gt;&lt;font size=&quot;1&quot;&gt;7.认证成功返回nacos账号与项目名&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="JCUp2-WsoM5vCHeJatl--243" value="&lt;h1&gt;&lt;font size=&quot;1&quot;&gt;7.认证成功&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="510" y="350" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="tvP8M2Ja1qccQZ0zuq23-208" value="" style="edgeStyle=segmentEdgeStyle;strokeColor=#2F5B7C;strokeWidth=3;html=1;endArrow=block;endFill=1;" edge="1" parent="1">
@@ -88,7 +88,7 @@
         <mxCell id="tvP8M2Ja1qccQZ0zuq23-211" value="&lt;h1&gt;&lt;font size=&quot;1&quot;&gt;3.返回领域和项目列表&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="504.5" y="130" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JCUp2-WsoM5vCHeJatl--234" value="&lt;h1&gt;&lt;font size=&quot;1&quot;&gt;6.携带iwork access token，选择 的领域信息&lt;/font&gt;&lt;/h1&gt;&lt;h1&gt;&lt;font size=&quot;1&quot;&gt;认证登录信息与项目名&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="JCUp2-WsoM5vCHeJatl--234" value="&lt;h1&gt;&lt;font size=&quot;1&quot;&gt;6.携带iwork access token验证是否登录成功&lt;/font&gt;&lt;/h1&gt;&lt;h1&gt;&lt;font size=&quot;1&quot;&gt;认证登录信息与项目名&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="504.5" y="240" width="127.75" height="120" as="geometry" />
         </mxCell>
         <mxCell id="tvP8M2Ja1qccQZ0zuq23-214" value="" style="edgeStyle=segmentEdgeStyle;strokeColor=#2F5B7C;strokeWidth=3;html=1;endArrow=block;endFill=1;" edge="1" parent="1">
@@ -158,7 +158,7 @@
         <mxCell id="tvP8M2Ja1qccQZ0zuq23-229" value="" style="edgeStyle=segmentEdgeStyle;strokeColor=#2F5B7C;strokeWidth=3;html=1;endArrow=block;endFill=1;" edge="1" parent="1">
           <mxGeometry x="140" y="148.5" width="100" height="100" as="geometry">
             <mxPoint x="520" y="280" as="sourcePoint" />
-            <mxPoint x="640" y="280" as="targetPoint" />
+            <mxPoint x="610" y="280" as="targetPoint" />
             <Array as="points">
               <mxPoint x="490" y="280" />
             </Array>
