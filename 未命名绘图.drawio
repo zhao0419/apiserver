@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-14T09:01:03.434Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="9HkYvbIYkMapmbobTzX0" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-15T00:19:48.102Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="sLaYYxTQgiKWM6-6rR5M" version="21.7.5" type="github">
   <diagram id="07fea595-8f29-1299-0266-81d95cde20df" name="Page-1">
-    <mxGraphModel dx="1034" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="492" dy="209" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,7 +30,7 @@
             <mxPoint x="260" y="185" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="183" value="&lt;font color=&quot;#23497d&quot;&gt;nacos认证模块&lt;/font&gt;" style="swimlane;whiteSpace=wrap;fillColor=none;swimlaneFillColor=#BAC8D3;fontColor=#2F5B7C;fontFamily=Tahoma;html=1;strokeColor=none;opacity=25;" parent="1" vertex="1">
+        <mxCell id="183" value="" style="swimlane;whiteSpace=wrap;fillColor=none;swimlaneFillColor=#BAC8D3;fontColor=#2F5B7C;fontFamily=Tahoma;html=1;strokeColor=none;opacity=25;" parent="1" vertex="1">
           <mxGeometry x="184.5" y="88.5" width="160" height="650" as="geometry">
             <mxRectangle x="20" y="20" width="80" height="23" as="alternateBounds" />
           </mxGeometry>
@@ -38,19 +38,38 @@
         <mxCell id="185" value="&lt;font color=&quot;#ffffff&quot;&gt;Facilities Procurement&lt;br&gt;Application&lt;/font&gt;&lt;br&gt; " style="shape=document;whiteSpace=wrap;verticalAlign=middle;strokeColor=none;fillColor=#12aab5;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;spacingBottom=22;" parent="183" vertex="1">
           <mxGeometry x="20" y="265" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="187" value="&lt;font color=&quot;#23497d&quot;&gt;iwork模块&lt;/font&gt;" style="swimlane;whiteSpace=wrap;fillColor=none;swimlaneFillColor=#BAC8D3;fontColor=#2F5B7C;fontFamily=Tahoma;html=1;strokeColor=none;opacity=50;" parent="1" vertex="1">
-          <mxGeometry x="344.5" y="88.5" width="160" height="650" as="geometry">
+        <mxCell id="203" value="" style="edgeStyle=segmentEdgeStyle;strokeColor=#12AAB5;strokeWidth=3;html=1;endArrow=block;endFill=1;" parent="183" source="189" edge="1">
+          <mxGeometry x="-20" y="345" width="100" height="100" as="geometry">
+            <mxPoint x="70" y="131.5" as="sourcePoint" />
+            <mxPoint y="191.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="86" y="192" />
+              <mxPoint x="86" y="192" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JCUp2-WsoM5vCHeJatl--217" value="" style="edgeStyle=segmentEdgeStyle;strokeColor=#2F5B7C;strokeWidth=3;html=1;endArrow=block;endFill=1;" edge="1" parent="183">
+          <mxGeometry x="-20" y="90" width="100" height="100" as="geometry">
+            <mxPoint x="-22.25" y="90.5" as="sourcePoint" />
+            <mxPoint x="182.25" y="91.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="157.75" y="91.5" />
+              <mxPoint x="157.75" y="91.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="187" value="nacos认证模块" style="swimlane;whiteSpace=wrap;fillColor=none;swimlaneFillColor=#BAC8D3;fontColor=#2F5B7C;fontFamily=Tahoma;html=1;strokeColor=none;opacity=50;" parent="1" vertex="1">
+          <mxGeometry x="344.5" y="89" width="160" height="650" as="geometry">
             <mxRectangle x="20" y="20" width="80" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JCUp2-WsoM5vCHeJatl--218" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="187" source="188" target="189">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="188" value="返回账号映射关系" style="shape=document;whiteSpace=wrap;verticalAlign=middle;strokeColor=none;fillColor=#12aab5;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;spacingBottom=22;" parent="187" vertex="1">
-          <mxGeometry x="20" y="50" width="120" height="80" as="geometry" />
+        <mxCell id="JCUp2-WsoM5vCHeJatl--218" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.456;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="187" source="184" target="189">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="130" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="189" value="Orders" style="shape=document;whiteSpace=wrap;verticalAlign=middle;strokeColor=none;fillColor=#12aab5;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;spacingBottom=22;" parent="187" vertex="1">
-          <mxGeometry x="20" y="225" width="120" height="80" as="geometry" />
+          <mxGeometry x="20" y="151.5" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="190" value="Product Delivery Notification" style="shape=document;whiteSpace=wrap;strokeColor=none;fillColor=#12aab5;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;verticalAlign=middle;spacing=6;spacingBottom=22;" parent="187" vertex="1">
           <mxGeometry x="20" y="400" width="120" height="80" as="geometry" />
@@ -68,26 +87,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="202" value="" style="edgeStyle=segmentEdgeStyle;strokeColor=#2F5B7C;strokeWidth=3;html=1;endArrow=block;endFill=1;" parent="1" source="171" target="184" edge="1">
-          <mxGeometry x="164.5" y="178.5" width="100" height="100" as="geometry">
-            <mxPoint x="224.5" y="248.5" as="sourcePoint" />
-            <mxPoint x="324.5" y="148.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="203" value="" style="edgeStyle=segmentEdgeStyle;strokeColor=#12AAB5;strokeWidth=3;html=1;endArrow=block;endFill=1;" parent="1" source="185" target="172" edge="1">
-          <mxGeometry x="164.5" y="433.5" width="100" height="100" as="geometry">
-            <mxPoint x="274.5" y="323.5" as="sourcePoint" />
-            <mxPoint x="274.5" y="363.5" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="234.5" y="493.5" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="204" value="" style="edgeStyle=segmentEdgeStyle;strokeColor=#2F5B7C;strokeWidth=3;html=1;endArrow=block;endFill=1;" parent="1" source="184" target="188" edge="1">
-          <mxGeometry x="164.5" y="178.5" width="100" height="100" as="geometry">
-            <mxPoint x="174.5" y="188.5" as="sourcePoint" />
-            <mxPoint x="274.5" y="263.5" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="184" value="nacos认证模块获取iwork和naocs账号映射关系" style="whiteSpace=wrap;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;plain-purple;strokeColor=none;fillColor=#2f5b7c;gradientColor=none;spacing=6;verticalAlign=middle;" parent="187" vertex="1">
+          <mxGeometry x="25.5" y="51" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="205" value="" style="edgeStyle=segmentEdgeStyle;strokeColor=#12AAB5;strokeWidth=3;html=1;endArrow=block;endFill=1;" parent="1" source="185" target="190" edge="1">
           <mxGeometry x="234.5" y="433.5" width="100" height="100" as="geometry">
@@ -107,19 +108,53 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JCUp2-WsoM5vCHeJatl--217" value="" style="edgeStyle=segmentEdgeStyle;strokeColor=#2F5B7C;strokeWidth=3;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="171" target="184">
-          <mxGeometry x="164.5" y="178.5" width="100" height="100" as="geometry">
-            <mxPoint x="165" y="179" as="sourcePoint" />
-            <mxPoint x="365" y="179" as="targetPoint" />
+        <mxCell id="JCUp2-WsoM5vCHeJatl--220" value="&lt;font color=&quot;#23497d&quot;&gt;iwork模块&lt;/font&gt;" style="swimlane;whiteSpace=wrap;fillColor=none;swimlaneFillColor=#BAC8D3;fontColor=#2F5B7C;fontFamily=Tahoma;html=1;strokeColor=none;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="590" y="89" width="160" height="650" as="geometry">
+            <mxRectangle x="20" y="20" width="80" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="184" value="nacos认证模块获取iwork和naocs账号映射关系" style="whiteSpace=wrap;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;plain-purple;strokeColor=none;fillColor=#2f5b7c;gradientColor=none;spacing=6;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="204.5" y="148.5" width="120" height="60" as="geometry" />
+        <mxCell id="JCUp2-WsoM5vCHeJatl--221" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JCUp2-WsoM5vCHeJatl--220" source="JCUp2-WsoM5vCHeJatl--222" target="JCUp2-WsoM5vCHeJatl--223">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="186" value="" style="edgeStyle=segmentEdgeStyle;strokeColor=#2F5B7C;strokeWidth=3;html=1;endArrow=block;endFill=1;" parent="1" source="184" target="185" edge="1">
+        <mxCell id="JCUp2-WsoM5vCHeJatl--222" value="获取当前用户" style="shape=document;whiteSpace=wrap;verticalAlign=middle;strokeColor=none;fillColor=#12aab5;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;spacingBottom=22;" vertex="1" parent="JCUp2-WsoM5vCHeJatl--220">
+          <mxGeometry x="20" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JCUp2-WsoM5vCHeJatl--223" value="返回账号映射关系" style="shape=document;whiteSpace=wrap;verticalAlign=middle;strokeColor=none;fillColor=#12aab5;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;spacingBottom=22;" vertex="1" parent="JCUp2-WsoM5vCHeJatl--220">
+          <mxGeometry x="20" y="151.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JCUp2-WsoM5vCHeJatl--224" value="Product Delivery Notification" style="shape=document;whiteSpace=wrap;strokeColor=none;fillColor=#12aab5;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;verticalAlign=middle;spacing=6;spacingBottom=22;" vertex="1" parent="JCUp2-WsoM5vCHeJatl--220">
+          <mxGeometry x="20" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JCUp2-WsoM5vCHeJatl--225" value="Invoice" style="shape=document;whiteSpace=wrap;verticalAlign=middle;strokeColor=none;fillColor=#12aab5;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;spacingBottom=22;" vertex="1" parent="JCUp2-WsoM5vCHeJatl--220">
+          <mxGeometry x="20" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JCUp2-WsoM5vCHeJatl--226" value="" style="edgeStyle=segmentEdgeStyle;strokeColor=#12AAB5;strokeWidth=3;html=1;endArrow=block;endFill=1;" edge="1" parent="JCUp2-WsoM5vCHeJatl--220" source="JCUp2-WsoM5vCHeJatl--224" target="JCUp2-WsoM5vCHeJatl--225">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="174.5" y="188.5" as="sourcePoint" />
-            <mxPoint x="274.5" y="263.5" as="targetPoint" />
+            <mxPoint x="-80" y="375" as="sourcePoint" />
+            <mxPoint x="60" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="53" y="501" />
+              <mxPoint x="53" y="501" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="204" value="" style="edgeStyle=segmentEdgeStyle;strokeColor=#2F5B7C;strokeWidth=3;html=1;endArrow=block;endFill=1;exitX=-0.012;exitY=0.407;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="JCUp2-WsoM5vCHeJatl--223" edge="1">
+          <mxGeometry x="164.5" y="178.5" width="100" height="100" as="geometry">
+            <mxPoint x="610" y="285" as="sourcePoint" />
+            <mxPoint x="484.5" y="275" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="609" y="275" />
+              <mxPoint x="610" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JCUp2-WsoM5vCHeJatl--227" value="" style="edgeStyle=segmentEdgeStyle;strokeColor=#2F5B7C;strokeWidth=3;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry x="164.5" y="178.5" width="100" height="100" as="geometry">
+            <mxPoint x="490" y="181.77" as="sourcePoint" />
+            <mxPoint x="595.5" y="181" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520.5" y="182" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
